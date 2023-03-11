@@ -20,6 +20,6 @@ Feature: User should be able to login with valid credentials
       | salesmanager15@info.com | salesmanager         |
       | salesmanager36@info.com | salesmanager         |
       | salesmanager57@info.com | salesmanager         |
-
+      | salesmanager58@info.com | salesmanager         |
 
 
