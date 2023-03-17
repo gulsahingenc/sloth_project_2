@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class FidexioLoginPage {
 
-    public FidexioLoginPage(){
+    public FidexioLoginPage() {
 
         PageFactory.initElements(Driver.getDriver(), this);
     }
@@ -18,8 +18,16 @@ public class FidexioLoginPage {
     @FindBy(xpath = "//input[@name='password']")
     public WebElement password;
 
-    @FindBy(xpath ="//button[@class='btn btn-primary']")
+    @FindBy(xpath = "//button[@class='btn btn-primary']")
     public WebElement logIn;
+
+    @FindBy(xpath = "//p[@class='alert alert-danger']")
+    public WebElement wrongMessage;
+
+
+
+
 }
+
 
 
